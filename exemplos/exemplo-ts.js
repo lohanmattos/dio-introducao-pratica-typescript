@@ -2,12 +2,15 @@
 var button = document.getElementById('button');
 var input = document.getElementById('input1');
 var input2 = document.getElementById('input2');
-function soma(num1, num2, mostrar, frase) {
+/*function soma(num1:number, num2:number, mostrar:boolean, frase:string) {
     let resultado = num1 + num2;
-    if (mostrar) {
+
+    if(mostrar) {
         console.log(frase + resultado);
     }
+
 }
+*/
 var devPrint = true;
 var frase = 'O resulado da soma é: ';
 if (button) {
